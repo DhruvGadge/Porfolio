@@ -1,0 +1,92 @@
+/* Dark Mode Styles */
+.dark-mode {
+    background-color: #1e1e1e;
+    color: white;
+  }
+  
+  /* Navbar Styling */
+  .dark-mode .navbar {
+    background-color: #222;
+  }
+  
+  .dark-mode .nav-links a {
+    color: #ddd;
+  }
+  
+  /* Sections Styling */
+  .dark-mode .about-section,
+  .dark-mode .projects-section,
+  .dark-mode .contact-section {
+    background: #333;
+    color: white;
+  }
+  
+  /* Card and Box Styling */
+  .dark-mode .card {
+    background-color: #444;
+    color: white;
+    border: 1px solid #666;
+  }
+  
+  .dark-mode .box {
+    background-color: #444;
+    color: white;
+  }
+  
+  /* Form Styling */
+  .dark-mode .contact-form {
+    background-color: #444;
+    color: white;
+    border: 1px solid #555;
+  }
+  
+  .dark-mode .contact-form input,
+  .dark-mode .contact-form textarea {
+    background-color: #555;
+    color: white;
+    border: 1px solid #777;
+  }
+  
+  .dark-mode .contact-form input::placeholder,
+  .dark-mode .contact-form textarea::placeholder {
+    color: #bbb;
+  }
+  
+  /* Button Styling */
+  .dark-mode button,
+  .dark-mode .btn {
+    background-color: #555;
+    color: white;
+    border: 1px solid #777;
+    cursor: pointer;
+  }
+  
+  .dark-mode button:hover,
+  .dark-mode .btn:hover {
+    background-color: #666;
+  }
+  
+  /* Footer Styling */
+  .dark-mode footer {
+    background-color: #222;
+    color: #ddd;
+    border-top: 1px solid #444;
+  }
+  
+  /* Dark Mode Toggle Button */
+  #theme-toggle {
+    position: fixed;
+    top: 10px;
+    right: 20px;
+    padding: 8px 12px;
+    background-color: #444;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  #theme-toggle:hover {
+    background-color: #666;
+  }
+  
